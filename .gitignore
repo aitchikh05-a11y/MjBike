@@ -1,0 +1,46 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# build output
+dist/
+dist-ssr/
+build/
+*.local
+.wrangler/
+.wrangler.toml.bak
+
+# generated TypeScript build info / emitted JS next to sources
+*.tsbuildinfo
+src/**/*.js
+shared/**/*.js
+!vite.config.js
+functions/**/*.js
+
+# env
+.env
+.env.*
+!.env.example
+
+# supabase
+supabase/.temp/
+supabase/.branches/
+supabase/.env
+
+# tests
+coverage/
+playwright-report/
+test-results/
+.vitest/
+
+# editors / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+npm-debug.log*

@@ -1,0 +1,4 @@
+# Cloudflare Pages: SPA fallback for client-side routes.
+# Real files and /api/* (Pages Functions) are served first, so this only
+# catches deep links such as /en/bike-tours/ or /admin/reservations/123.
+/*    /index.html   200
